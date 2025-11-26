@@ -240,7 +240,7 @@ return view.extend({
 	render: function(result) {
 		let m, s, o;
 
-		m = new form.Map('youtubeUnblock', _('youtubeUnblock - Configuration'), _("Check the README for more details <a href=\"https://github.com/Waujito/youtubeUnblock\">https://github.com/Waujito/youtubeUnblock</a>"));
+		m = new form.Map('youtubeUnblock', _('youtubeUnblock - Configuration'), _("Check the README for more details <a href=\"https://github.com/vnaum/youtubeUnblock\">https://github.com/Waujito/youtubeUnblock</a>"));
 
 		const general_section = m.section(form.NamedSection, "youtubeUnblock", "youtubeUnblock");
 		o = general_section.option(form.ListValue, "conf_strat", _("Configuration strategy"), _("Select to configure youtubeUnblock with plain arguments or with interactive flags"));

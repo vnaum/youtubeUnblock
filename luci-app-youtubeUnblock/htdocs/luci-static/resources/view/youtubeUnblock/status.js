@@ -73,7 +73,7 @@ return view.extend({
 	render: function(result) {
 		let m, s, o;
 "youtubeUnblock", "youtubeUnblock", "Bypasses Deep Packet Inspection (DPI) systems that rely on SNI"
-		m = new form.Map('youtubeUnblock', 'youtubeUnblock', _("Bypasses Deep Packet Inspection (DPI) systems that rely on SNI. <br />	Check the README for more details <a href=\"https://github.com/Waujito/youtubeUnblock\">https://github.com/Waujito/youtubeUnblock</a>"));
+		m = new form.Map('youtubeUnblock', 'youtubeUnblock', _("Bypasses Deep Packet Inspection (DPI) systems that rely on SNI. <br />	Check the README for more details <a href=\"https://github.com/vnaum/youtubeUnblock\">https://github.com/Waujito/youtubeUnblock</a>"));
 
 		/*
 			poll runtime information

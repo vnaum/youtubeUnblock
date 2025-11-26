@@ -7,7 +7,7 @@ PKG_VERSION:=1.1.0
 PKG_REV:=473af29c6b3f93e9599c97cc0abec390e15f300b
 PKG_RELEASE:=2
 
-PKG_SOURCE_URL:=https://github.com/Waujito/youtubeUnblock.git
+PKG_SOURCE_URL:=https://github.com/vnaum/youtubeUnblock.git
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=$(PKG_REV)
 
@@ -18,7 +18,7 @@ define Package/youtubeUnblockEntware
 	CATEGORY:=Networking
 	TITLE:=youtubeUnblock
 	DEPENDS:=+libpthread
-	URL:=https://github.com/Waujito/youtubeUnblock
+	URL:=https://github.com/vnaum/youtubeUnblock
 	MAINTAINER:=Vadim Vetrov <vetrovvd@gmail.com>
 	VERSION:=$(PKG_VERSION)~$(shell echo $(PKG_REV) | cut -c 1-7)-r$(PKG_RELEASE)
 endef
